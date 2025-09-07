@@ -10,7 +10,7 @@ open.addEventListener('click', () => {
   modal.classList.remove('hidden');
 
   // optional: play background music (if file in assets/music/love.mp3)
-  // new Audio('assets/music/love.mp3').play();
+   new Audio('love.mp3').play();
 });
 
 // Close modal when ✕ clicked
@@ -70,4 +70,5 @@ playBtn.addEventListener('click', () => {
   playBtn.disabled = true;
   playBtn.textContent = "Music Playing 🎶";
 });
+
 
