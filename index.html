@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>For You ❤️</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<section class="gallery">
+  <h2>Our Memories</h2>
+  <img src="assets/images/pic1.jpg" alt="Cute photo 1">
+  <img src="assets/images/pic2.jpg" alt="Cute photo 2">
+  <img src="assets/images/pic3.jpg" alt="Cute photo 3">
+</section>
+
+<body>
+  <header class="hero">
+    <div class="overlay">
+      <h1>Will you be mine?</h1>
+      <p>From <span class="date">now</span> to forever...</p>
+      <button id="openProposal">Open Proposal 💖</button>
+    </div>
+  </header>
+
+  <section id="story" class="card">
+    <h2>Our Story</h2>
+    <div class="timeline">
+      <div class="event"><h3>First Meet</h3><p>college</p></div>
+      <div class="event"><h3>proposal Date</h3><p>20 Apr 2025</p></div>
+    </div>
+  </section>
+
+  <!-- Proposal modal -->
+  <div id="proposalModal" class="modal hidden">
+    <div class="modal-content">
+      <button id="closeModal" class="close">✕</button>
+      <h2>Will you marry me?</h2>
+      <p id="proposalMsg">I love you so much...</p>
+      <button id="acceptBtn">Yes 💍</button>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
+
+<button id="playMusic">Play Music 🎵</button>
+<audio id="bgMusic" loop>
+  <source src="assets/music/love.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
